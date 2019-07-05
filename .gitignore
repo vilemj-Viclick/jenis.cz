@@ -1,0 +1,58 @@
+###################################
+############### npm ###############
+###################################
+
+*.log
+node_modules/
+npm-debug.log
+npm-debug.log.*
+
+###################################
+############## Build ##############
+###################################
+
+.nyc_output/
+deployment/tools/*
+public/build/
+public/js-api/*
+publish/
+reports/
+styleguide/build/
+storybook/build/
+/build
+
+
+###################################
+############### mac ###############
+###################################
+
+.DS_STORE
+
+###################################
+############### IDE ###############
+###################################
+
+.idea/*
+.vscode/launch.json
+!.idea/codeStyles
+!.idea/codeStyleSettings.xml
+!.idea/inspectionProfiles
+!.idea/jsLibraryMappings.xml
+!.idea/libraries
+!.idea/misc.xml
+!.idea/runConfigurations
+!.idea/typescript-compiler.xml
+!.idea/dictionaries/
+
+###################################
+############## K3Diff #############
+###################################
+
+*.orig
+
+###################################
+########## Local Config ###########
+###################################
+
+server/config/buildConfig.local.js
+server/config/environment/env.local.js
